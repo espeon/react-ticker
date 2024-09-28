@@ -25,8 +25,8 @@ function App() {
       <AnimatedCounter value={time.getSeconds()} className="font-mono inline min-w-max" decimalPrecision={0 } padNumber={2} showColorsWhenValueChanges={false} />
       </div>
       <AnimatedCounter value={counterValue} className="text-white text-9xl font-mono" />
-      <div>{counterValue}</div>
-      <div>
+      <div>{counterValue.toFixed(2)}</div>
+      <div className="flex justify-center space-x-4">
         <button onClick={() => handleCounterUpdate(false)}>Decrement</button>
         <button onClick={() => handleCounterUpdate(true)}>Increment</button>
       </div>
