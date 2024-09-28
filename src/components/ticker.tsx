@@ -103,7 +103,7 @@ const NumberColumn = memo(
         <div
           className={`absolute w-full flex flex-col ${animationClass} ${
             animationClass ? "animate-move" : ""
-          } transition-all duration-300 ease-in-out`}
+          } transition-all ease-in-out`}
           style={
             {
               transform: `translateY(-${position}px)`,

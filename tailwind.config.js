@@ -12,6 +12,9 @@ export default {
       animation: {
         ticker: 'ticker .2s linear infinite',
       },
+      fontFamily: {
+        mono: ["Departure Mono", "SF Mono", "ui-monospace", "monospace"]
+      }
     },
   },
   plugins: [],
